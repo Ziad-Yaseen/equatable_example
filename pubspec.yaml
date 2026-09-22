@@ -1,0 +1,5 @@
+name: your_project_name
+environment:
+  sdk: '^3.13.0'
+dependencies:
+  equatable: ^3.0.0
