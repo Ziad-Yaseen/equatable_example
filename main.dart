@@ -12,6 +12,10 @@ void main() {
   print(hum == hum2); // False
   print(hum.hashCode);
   print(hum2.hashCode); // Same hash code
+
+  Animal an1 = Animal('Dog');
+  Animal an2 = Animal('Cat');
+  print(an1 == an2);
 }
 
 class Person {
@@ -39,4 +43,10 @@ class Human extends Equatable {
 
   @override
   List<Object> get props => [name];
+}
+
+class Animal {
+  String type;
+
+  Animal(this.type);
 }
