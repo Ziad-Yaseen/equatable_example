@@ -10,6 +10,8 @@ void main() {
   if (login()) {
     showMenu();
   }
+
+  print('=== App developed by Ziad Yaseen ===');
 }
 
 bool login() {
